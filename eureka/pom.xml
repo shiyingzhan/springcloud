@@ -17,6 +17,9 @@
     	<module>eureka_server</module>
     	<module>eureka-consumer</module>
     	<module>eureka-api</module>
+    <module>springcloud-service-provider_2</module>
+    <module>springcloud-consumer-ribbon</module>
+    <module>springcloud-zuul</module>
   </modules>
 
 	<parent>
@@ -37,13 +40,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
