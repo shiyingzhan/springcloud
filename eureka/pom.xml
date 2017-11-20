@@ -20,6 +20,9 @@
     <module>springcloud-service-provider_2</module>
     <module>springcloud-consumer-ribbon</module>
     <module>springcloud-zuul</module>
+    <module>springcloud-config</module>
+    <module>springcloud-config-server</module>
+    <module>springcloud-config-client</module>
   </modules>
 
 	<parent>
