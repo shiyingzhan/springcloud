@@ -1,22 +1,26 @@
 package org.springcloud.config.client.controllet;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class SpringCloudConfigClientTest {
-	@Value("${username}")
-	String username;
+@RefreshScope
+public class SpringCloudConfigClientTest {	
+	@Value("${profile}")
+	String profile;
 	
-	@Value("${myname}")
-	String myname;
-	
-//	@Value("${foo}")
-//	String foo;
-
 	@RequestMapping(value = "/hi")
 	public String hi() {
-		return username +  "  " + myname;
+		return "profile:"+profile;
 	}
+	
+//	@Value("${db.user}")
+//	String dbUser;
+//	
+//	@RequestMapping(value = "/hidb")
+//	public String hiDB() {
+//		return "dbUser:"+dbUser;
+//	}
 }
