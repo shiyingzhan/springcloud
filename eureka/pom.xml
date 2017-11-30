@@ -23,6 +23,7 @@
     <module>springcloud-config</module>
     <module>springcloud-config-server</module>
     <module>springcloud-config-client</module>
+    <module>springcloud-bus</module>
   </modules>
 
 	<parent>

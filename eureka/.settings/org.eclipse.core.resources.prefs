@@ -1,9 +1,11 @@
 eclipse.preferences.version=1
+encoding//eureka-server/src/main/resources/application.properties=UTF-8
 encoding//springcloud-config-client/src/main/resources/application.properties=UTF-8
 encoding//springcloud-config-client/src/main/resources/bootstrap.properties=UTF-8
 encoding//springcloud-config-server/src/main/resources/application.properties=UTF-8
 encoding//springcloud-consumer-ribbon/src/main/resources/application.properties=UTF-8
 encoding//springcloud-service-provider_2/src/main/resources/application.properties=UTF-8
+encoding//springcloud-zuul/src/main/resources/application.properties=UTF-8
 encoding//src/main/java=UTF-8
 encoding//src/test/java=UTF-8
 encoding/<project>=UTF-8
